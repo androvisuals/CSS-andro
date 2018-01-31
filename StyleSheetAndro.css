@@ -1,0 +1,27 @@
+/*basic font for the androvisuals web page p is Roboto, the rest is Arial, sans-serif*/
+/* for dynamic font resizing on pretty much all browswers use the font size in body
+amd then em in the rest*/
+body {
+    background-color: rgb(240,240,240) ;
+    font-size: 100%;
+
+}
+h1 {
+	font-family:sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+    color: black;
+    
+}
+p.normal {
+	font-family:Roboto;
+	font-size: 1.25em;
+	font-weight: normal;
+    color: black;
+}
+p.thick {
+	font-family:Roboto;
+	font-size: 1.25em;
+	font-weight: bold;
+    color: black;
+}
