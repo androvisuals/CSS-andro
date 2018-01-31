@@ -1,6 +1,10 @@
-/*basic font for the androvisuals web page p is Roboto, the rest is Arial, sans-serif*/
-/* for dynamic font resizing on pretty much all browswers use the font size in body
-amd then em in the rest*/
+/*basic font for the androvisuals web page p is Roboto, 
+the rest is Arial, sans-serif
+For dynamic font resizing on pretty much all browswers use the font size in body
+amd then em in the rest
+420 x 98 is the size of the header pictures of the original webpage
+*/
+
 body {
     background-color: rgb(240,240,240) ;
     font-size: 100%;
@@ -11,7 +15,24 @@ h1 {
 	font-size: 2em;
 	font-weight: bold;
     color: black;
-    
+}
+/* Its also possible to just do .normal and then 
+ALL html elements can use that class  */
+.center {
+	text-align: center;
+}
+img.centerImg{
+	max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.normal{
+	font-weight: normal;
+}
+.thick{
+	font-weight: bold;
 }
 p.normal {
 	font-family:Roboto;
