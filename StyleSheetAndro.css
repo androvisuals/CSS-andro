@@ -12,15 +12,31 @@ body {
     font-size: 100%;
 
 }
+/*
 .mainTitle {
+	margin: 80px 10px;
 	font-family:sans-serif;
-	/*font-size: 1.75em;*/
 	font-weight: bold;
     color: black;
-    /*float: left;*/
+    
     width: 220px;
-    border: 3px solid;
+    border: 1px solid;
     padding: 10px;
+}
+*/
+
+div.mainTitle {
+    max-width:300px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    /*margin: auto;*/
+    color: black;
+    border: 3px solid ;
+}
+div.mainImage{
+	max-width:900px;
+	position: relative;
 }
 /* Its also possible to just do .normal and then 
 ALL html elements can use that class  */
