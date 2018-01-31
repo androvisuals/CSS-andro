@@ -6,15 +6,21 @@ amd then em in the rest
 */
 
 body {
+	margin: 0;
+    padding: 0;
     background-color: rgb(240,240,240) ;
     font-size: 100%;
 
 }
-h1 {
+.mainTitle {
 	font-family:sans-serif;
-	font-size: 2em;
+	/*font-size: 1.75em;*/
 	font-weight: bold;
     color: black;
+    /*float: left;*/
+    width: 220px;
+    border: 3px solid;
+    padding: 10px;
 }
 /* Its also possible to just do .normal and then 
 ALL html elements can use that class  */
